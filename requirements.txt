@@ -1,0 +1,11 @@
+# NEXKORE — core Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Note: external CLI tools (subfinder, nuclei, httpx, ffuf, sqlmap, dalfox,
+# paramspider, trufflehog3, naabu, katana, gau, nmap, wfuzz) are NOT Python
+# packages and are installed separately via the in-app Environment Setup
+# menu (Go / pip / apt), not through this file.
+
+rich>=13.7.0
+pyfiglet>=1.0.2
+requests>=2.31.0
